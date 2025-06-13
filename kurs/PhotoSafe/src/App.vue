@@ -39,7 +39,6 @@ const getInitialPhotos = () => [
   { id: 6, name: 'Черноморье РЖД', url: 'ржд.png', uploadDate: new Date(Date.now() - 20 * 86400000) },
   { id: 7, name: 'Камчатский полуостров', url: 'остров.png', uploadDate: new Date(Date.now() - 45 * 86400000) },
   { id: 8, name: 'Акулий остров Австралия', url: 'Австралия.png', uploadDate: new Date(Date.now() - 100 * 86400000) },
-  // Документы для разнообразия
   { id: 9, name: 'Максик', url: 'Максик.png', uploadDate: new Date(Date.now() - 86400000)},
   { id: 10, name: 'Серёжка', url: 'Серёжка.png', uploadDate: new Date(Date.now() - 160 * 86400000)},
 ];
@@ -100,7 +99,6 @@ function handleUpload(file) {
 </script>
 
 <style>
-/* Можно добавить стили для обертки, если нужно */
 #app-wrapper {
   background-color: var(--bg-color);
 }
